@@ -1,0 +1,27 @@
+{
+    "name": "siam401/fileupload",
+    "description": "A Laravel package for file uploads.",
+    "authors": [
+        {
+            "name": "Arman Hasan Siam",
+            "email": "armansiam22@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "FileUpload\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FileUpload\\Providers\\FileUploadServiceProvider"
+            ],
+            "aliases": {
+                "FileUpload": "FileUpload\\FileUpload"
+            }
+        }
+    },
+    "require": {}
+}
