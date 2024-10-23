@@ -1,9 +1,9 @@
 <?php
 
-namespace YourVendorName\FileUpload\Providers;
+namespace Siam401\FileUpload\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use FileUpload\FileUpload;
+use Siam401\FileUpload\FileUpload;
 
 class FileUploadServiceProvider extends ServiceProvider
 {
